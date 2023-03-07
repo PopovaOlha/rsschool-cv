@@ -4,7 +4,8 @@
 * 📧 __popovaolga719@gmail.com__
 * __Telegram:__ __@Popovaolga719__
 * __Discord:__ __PopovaOlha#2095__
-*********
+___
+
 ## *Trainee Frontend developer* 
 #### Skills:
 * HTML;
