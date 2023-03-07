@@ -17,3 +17,6 @@
 *************************************
 🌐 [Linkedin](https://www.linkedin.com/in/olha-popova-8235851b3/),  [GitHub](https://github.com/PopovaOlha) 
 **********************************
+### About me
+>I am a very responsible, active and ambitious trainee frontend developer. Former entrepreneur with 12 years of experience. I have been studying frontend development since June 2022. I like to create useful and interesting applications.
+***********************************************
