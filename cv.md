@@ -5,3 +5,13 @@
 * __Telegram:__ __@Popovaolga719__
 * __Discord:__ __PopovaOlha#2095__
 ******************************************
+## *Trainee Frontend developer* 
+#### Skills:
+* HTML;
+* CSS (Framework Bootstrap, Preprocessor SCSS, BEM methodology);
+* JavaScript (Fundamentals,Functional Programming, OOP, Asynchronous JavaScript, ES6+,DOM);
+* React, Redux;
+* Version control: Git;
+* Module Bundlers: Gulp, Webpack;
+* Figma(for web development);
+*************************************
