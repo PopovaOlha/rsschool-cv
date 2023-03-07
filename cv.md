@@ -15,3 +15,5 @@
 * Module Bundlers: Gulp, Webpack;
 * Figma(for web development);
 *************************************
+🌐 [Linkedin](https://www.linkedin.com/in/olha-popova-8235851b3/),  [GitHub](https://github.com/PopovaOlha) 
+**********************************
