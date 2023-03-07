@@ -25,3 +25,7 @@
 * [Responsive portfolio ](https://animated-chebakia-431d8d.netlify.app/) (HTML, CSS)
 * [Vanilla weather app](https://incomparable-cuchufli-ed2bbe.netlify.app/) (HTML, CSS, JavaScript)
 ***********************************************
+### Certificates
+* [Web development](https://www.shecodes.io/certificates/565da71f849e9b70bd3adc3e92412a00)
+* [Responsive Web development](https://www.shecodes.io/certificates/369ada80a4f04026a8d8f5f3a4637e49)
+**************************************************
