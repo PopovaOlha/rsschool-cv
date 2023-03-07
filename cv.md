@@ -40,3 +40,9 @@ const numbers = [5, 10, 15, 20, 25];
 const total = numbers.reduce((acc, number) => acc + number);
 ```
 ****************************************************
+### Languages
+>Ukrainian - native
+
+>Russian - fluent
+
+>English - intermediate
