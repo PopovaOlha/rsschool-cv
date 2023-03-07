@@ -20,3 +20,8 @@
 ### About me
 >I am a very responsible, active and ambitious trainee frontend developer. Former entrepreneur with 12 years of experience. I have been studying frontend development since June 2022. I like to create useful and interesting applications.
 ***********************************************
+### My projects:
+* [Plants project](https://sparkly-stroopwafel-1b1c8b.netlify.app/) ( HTML, CSS, JavaScript)
+* [Responsive portfolio ](https://animated-chebakia-431d8d.netlify.app/) (HTML, CSS)
+* [Vanilla weather app](https://incomparable-cuchufli-ed2bbe.netlify.app/) (HTML, CSS, JavaScript)
+***********************************************
