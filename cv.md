@@ -34,3 +34,9 @@
 * **SheCodes Responsive**
 * **Go-It: "Full Stack Developer(in process)**
 ***************************************************
+### Code example:
+```
+const numbers = [5, 10, 15, 20, 25];
+const total = numbers.reduce((acc, number) => acc + number);
+```
+****************************************************
