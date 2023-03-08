@@ -1,1 +1,1 @@
-https://PopovaOlha.github.io/rsschool-cv/cv
+https://PopovaOlha.github.io/rsschool-cv/
