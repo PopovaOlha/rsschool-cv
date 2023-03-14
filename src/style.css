@@ -25,7 +25,22 @@ overflow: clip;
 [class*="__conteiner"]{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0px 15px;
+    padding: 0px 20px;
+}
+.body_box__conteiner {
+    display:flex;
+    column-gap: 20px;
+}
+.sections {
+    width: 50%;
+}
+.title_text {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
 }
 /*-----------------------------------------*/
 /*Header*/
@@ -76,8 +91,7 @@ overflow: clip;
 /*--------------------------------------------------*/
 .main-conteiner {
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
   }
   
   .section {
@@ -86,13 +100,13 @@ overflow: clip;
   }
 
   .img_profile {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
 .profile_page {
-    padding: 20px 0;
+    padding: 50px 30px 35px;
    
 }
 
@@ -101,10 +115,7 @@ overflow: clip;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 30px;
-    border-bottom: 8px solid #906387;
-}
-
-.profile_image {
+    border-bottom: 15px solid #906387;
 }
 
 .image_body {
@@ -113,10 +124,6 @@ overflow: clip;
     border-radius: 50%;
     padding: 10px;
     
-
-}
-
-.img_profile {
 }
 
 .profile_content {
@@ -124,32 +131,95 @@ overflow: clip;
    
 }
 
-.profile_name {
+.title_name {
     position: relative;
     text-align: center;
     font-family: 'Bebas Neue';
-    font-size: 38px;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
     margin-bottom: 30px;
-   
 }
-.profile_name::before {
+
+.title_name::before {
     content: "";
     position: absolute;
     top: 1em;
-    left: 87px;
+    left: 100px;
     width: 100px;
     height: 2px; 
     border: 1px solid #829985;
-    margin-top: 10px;
-    
+    margin-top: 30px; 
 } 
 
 .profile_vocation {
-    font-size: 400;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*contacts section*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+.contacts_page {
+    border-bottom: 1px solid #672f2f;
+    padding-bottom: 35px;
+}
+.sections {
+}
+.contacts_title {
 }
 
-
+.contacts_list {
+}
+.contacts_item {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+.fa-solid {
+}
+.fa-location-dot {
+}
+.fa-brands {
+}
+.fa-github {
+}
+.contacts_link {
+    color: #9C9C9C;
+}
+.contacts:hover {
+    color:#4d2323;
+}
+.fa-discord {
+}
+.fa-telegram {
+}
+.fa-envelope {
+}
+.contacts_link {
+}
+.summary_page {
+    border-bottom: 1px solid #672f2f;
+    padding-bottom: 35px;
+}
+.sections {
+}
+.summary_title {
+}
+.title_text {
+}
+.summary_paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+  }
 
 
 
