@@ -29,10 +29,10 @@ overflow: clip;
 }
 .body_box__conteiner {
     display:flex;
-    column-gap: 20px;
+    column-gap: 60px;
 }
 .sections {
-    width: 50%;
+    width: calc(50% - 20px) ;
 }
 .title_text {
     margin-bottom: 20px;
@@ -56,7 +56,7 @@ overflow: clip;
 .header__conteiner {
     display: flex;
     align-items: center;
-    min-height: 106px;
+    min-height: 90px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -106,7 +106,7 @@ overflow: clip;
 }
 
 .profile_page {
-    padding: 50px 30px 35px;
+    padding: 10px 30px 35px;
    
 }
 
@@ -122,13 +122,11 @@ overflow: clip;
     display: inline-block;
     border: 5px solid #5b446a;
     border-radius: 50%;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 .profile_content {
-    align-self: center;
-   
+    align-self: center; 
 }
 
 .title_name {
@@ -147,8 +145,8 @@ overflow: clip;
     content: "";
     position: absolute;
     top: 1em;
-    left: 100px;
-    width: 100px;
+    left: 75px;
+    width: 140px;
     height: 2px; 
     border: 1px solid #829985;
     margin-top: 30px; 
@@ -160,66 +158,278 @@ overflow: clip;
     font-weight: 300;
     letter-spacing: 2px;
 }
-/*----------------------------------------------*/
+
 /*----------------------------------------------*/
 /*contacts section*/
 /*----------------------------------------------*/
-/*----------------------------------------------*/
+
 .contacts_page {
     border-bottom: 1px solid #672f2f;
-    padding-bottom: 35px;
-}
-.sections {
-}
-.contacts_title {
+    padding: 0 10px 35px 10px;
 }
 
-.contacts_list {
-}
 .contacts_item {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
     color: #4d2323;
 }
-.fa-solid {
+
+.contacts_item:not(:last-child) {
+    margin-bottom: 14.5px;
 }
-.fa-location-dot {
+
+.fa-solid {
+    margin-right: 18px;
+
 }
 .fa-brands {
+    margin-right: 15px;
+
+}
+.fa-discord {
+    margin-right: 10px;
+
+}
+.fa-envelope { 
+    margin-right: 15px;
+
 }
 .fa-github {
+    margin-right: 15px;
+
 }
+.fa-location-dot {
+    margin-right: 18px ;
+    padding-left: 2px;
+}
+
 .contacts_link {
     color: #9C9C9C;
 }
-.contacts:hover {
+
+.contacts_link:hover {
     color:#4d2323;
 }
-.fa-discord {
-}
-.fa-telegram {
-}
-.fa-envelope {
-}
-.contacts_link {
-}
+
+/*--------------------------------------------*/
+/*summary section*/
+/*--------------------------------------------*/
+
 .summary_page {
     border-bottom: 1px solid #672f2f;
-    padding-bottom: 35px;
+    padding: 0 10px 35px 10px;
 }
-.sections {
-}
-.summary_title {
-}
-.title_text {
-}
+
 .summary_paragraph {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
     color: #4d2323;
   }
+
+  /*--------------------------------------------*/
+  /*skills section*/
+  /*--------------------------------------------*/
+
+  .skills_page {
+    padding: 35px 10px;
+    border-bottom: 1px solid #672f2f;
+}
+
+.skills_item {
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+    padding-left: 25px;
+}
+.skills_item span {
+    color: #829985;
+}
+
+.skills_item::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    background-image: url("../assets/index.png");
+}
+
+.skills_item:not(:last-child) {
+    margin-bottom: 14.5px;
+}
+
+/*--------------------------------------------------*/
+/*code section*/
+/*---------------------------------------------------*/
+
+.code_page {
+    height:269px;
+    padding: 35px 10px;
+    border-bottom: 1px solid #672f2f;
+}
+
+.pre {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;   
+}
+
+/*------------------------------------------------*/
+/*Courses section*/
+/*-------------------------------------------------*/
+
+ .courses_page {
+    padding: 35px 10px;
+    border-bottom: 1px solid #672f2f;
+}
+
+.courses_item {
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+    padding-left: 25px;
+}
+
+.courses_item::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    background-image: url("../assets/index.png");
+}
+
+.courses_item span {
+    color: #829985;
+}
+
+.courses_item:not(:last-child) {
+    margin-bottom: 14.5px;
+}
+/*--------------------------------------------------*/
+/*projects section*/
+/*--------------------------------------------------*/
+.projects_page {
+    padding: 35px 10px;
+    border-bottom: 1px solid #672f2f;
+}
+
+.projects_item {
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+    padding-left: 25px; 
+}
+
+.projects_item:not(:last-child) {
+    margin-bottom: 35px;   
+}
+
+.projects_item::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    background-image: url("../assets/index.png");
+}
+
+.projects_link {
+    font-weight: 500 ;
+    color: #4d2323;  
+}
+
+.projects_link span {
+    color: #829985;
+}
+
+.projects_link:hover {
+    color: #5b446a;
+    transition: all 0.4s;
+    border-bottom: 2px solid rgb(226, 216, 216);
+}
+
+.project_tools {
+    padding-left: 10px;
+}
+/*--------------------------------------------------*/
+/*educations section*/
+/*--------------------------------------------------*/
+.education_page {
+    padding: 35px 10px;
+}
+
+.section_content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+/*--------------------------------------------------*/
+/*english section*/
+/*---------------------------------------------------*/
+.english_page {
+    padding: 35px 10px;
+}
+
+.english_content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+/*-----------------------------------------*/
+/*footer*/
+/*------------------------------------------*/
+.footer {
+    display: flex;
+    justify-content:center;
+    min-height: 90px;
+    background-color: #4c9173;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+.footer_body__conteiner {
+    min-width: 1440px;
+    display:flex;
+    justify-content: space-between ;
+    align-items: center;
+    
+}
+
+.footer_link, .year  {
+    color:#ffff;
+    font-size: 18px;
+    padding-right: 10px;
+    line-height: 2.5; /* 45/18 */
+}
+.footer_link:hover {
+    color: #5b446a;
+    transition: all 0.4s;
+}
+.footer_image {
+    width: 115px;
+    height: 45px;
+    background-image: url("../assets/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 
 
 
