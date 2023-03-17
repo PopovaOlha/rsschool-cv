@@ -405,7 +405,7 @@ overflow: clip;
     padding-bottom: 10px; 
 }
 .footer_body__conteiner {
-    max-width: 1440px;
+    width: 1440px;
     display:flex;
     justify-content: space-between ;
     align-items: center;
