@@ -431,6 +431,9 @@ overflow: clip;
         text-align: center;
         font-size: 15px;
     }
+    .summary_page {
+        padding-top:25px;
+    }
 }
   /*--------------------------------------------*/
   /*skills section*/
